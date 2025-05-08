@@ -18,7 +18,7 @@
         "winston": "^3.17.0"
     },
     "engines": {
-        "node": "16.x"
+        "node": "23.x"
     },
     "keywords": [
         "node",
