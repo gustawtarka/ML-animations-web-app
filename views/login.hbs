@@ -1,0 +1,14 @@
+{{> welcomeMenu id="login"}}
+
+<form class="ui stacked segment form" action="/authenticate" method="POST" enctype="multipart/from-data">
+    <h3>Log in</h3>
+    <div>
+        <label for="email">Email</label>
+        <input placeholder="Email" type="email" name="email" autofocus required>
+    </div>
+    <div class="field">
+        <label for="password">Password</label>
+        <input plceholder="Password" type="password" name="password" required>
+    </div>
+    <button class="ui black submit button">Login</button>
+</form>

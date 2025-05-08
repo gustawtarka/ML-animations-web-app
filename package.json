@@ -1,0 +1,28 @@
+{
+    "name": "ml-sim-platform",
+    "version": "1.0.0",
+    "description": "ml-learning-platform app",
+    "type": "module",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "body-parser": "^2.1.0",
+        "cookie-parser": "^1.4.7",
+        "express": "^4.21.2",
+        "express-fileupload": "^1.5.1",
+        "express-handlebars": "^8.0.1",
+        "lowdb": "^7.0.1",
+        "uuid": "^11.1.0",
+        "winston": "^3.17.0"
+    },
+    "engines": {
+        "node": "16.x"
+    },
+    "keywords": [
+        "node",
+        "glitch",
+        "express"
+    ]
+}
