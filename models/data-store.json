@@ -1,0 +1,78 @@
+{
+    "data": [
+        {
+        "machine_learning_algorithms": [
+    {
+        "name": "linear_regression"
+    },
+    {
+        "name": "logistic_regression"
+    },
+    {
+        "name": "decision_trees"
+    },
+    {
+        "name": "random_forests"
+    },
+    {
+        "name": "support_vector_machines"
+    },
+    {
+        "name": "naive_bayes"
+    },
+    {
+        "name": "k_nearest_neighbors"
+    },
+    {
+        "name": "k_means_clustering"
+    },
+    {
+        "name": "principal_component_analysis"
+    },
+    {
+        "name": "gradient_boosting_machines"
+    },
+    {
+        "name": "adaboost"
+    },
+    {
+        "name": "bagging"
+    },
+    {
+        "name": "stochastic_gradient_descent"
+    },
+    {
+        "name": "mini_batch_k_means"
+    },
+    {
+        "name": "expectation_maximization"
+    },
+    {
+        "name": "hierarchical_clustering"
+    },
+    {
+        "name": "dbscan"
+    },
+    {
+        "name": "optics"
+    },
+    {
+        "name": "spectral_clustering"
+    },
+    {
+        "name": "anomaly_detection"
+    }
+],
+
+            "natural_language_processing_algorithms": [],
+            "computer_vision_algorithms": [],
+            "reinforcement_learning_algorithms": [],
+            "deep_learning_algorithms": [],
+            "optimization_algorithms": [],
+            "ensamble_algorithms": [],
+            "recommendation_systems": [],
+            "anomaly_detection_algorithms": [],
+            "graph_algorithms_in_AI": []
+        }
+    ]
+}
