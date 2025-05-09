@@ -1,0 +1,24 @@
+{
+    "info": {
+      "appTitle": "Neutron star database",
+      "version": 0.1,
+      "creators": [
+        {
+          "name": "Gustaw Tarka",
+          "role": "Web Developer"
+        },
+        {
+          "name": "N/A",
+          "role": "N/A"
+        }
+      ],
+      "contact_details": [
+        {
+          "mail": "20113304@mail.wit.ie",
+          "phone": "083 554 6539",
+          "address": "Cork Rd, Kilbarry, Waterford"
+        }
+      ],
+      "location": "Waterford"
+    } 
+  }

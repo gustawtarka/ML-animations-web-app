@@ -1,5 +1,5 @@
 import express from 'express';
-//import logger from "./utils/logger.js";
+import logger from "./utils/logger.js";
 import routes from './routes.js'; 
 import { create } from 'express-handlebars';
 import bodyParser from "body-parser";
