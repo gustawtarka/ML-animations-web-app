@@ -1,7 +1,6 @@
 'use strict';
 
 import express from 'express';
-import logger from "./utils/logger.js";
 
 const router = express.Router();
 
@@ -11,6 +10,7 @@ import about from './controllers/about.js';
 import search from './controllers/search.js';
 import accounts from './controllers/accounts.js';
 import index from './controllers/index.js';
+import logger from './utils/logger.js';
 
 router.get("/start", start.createView);
 router.get("/dashboard", dashboard.createView);

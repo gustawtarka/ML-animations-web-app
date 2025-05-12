@@ -22,7 +22,7 @@ const accounts = {
     const viewData = {
       title: 'Login to the Service',
     };
-    response.render('signup', viewData);
+    response.render('register', viewData);
   },
 registerQ(request, response) {
   const { email, password, firstName, lastName} = request.body;
