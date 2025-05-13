@@ -1,7 +1,10 @@
 {
     "data": [
         {
-            "machine_learning_algorithms": [
+          "name" : "Machine Learning Algorithms",
+          "id": 1,
+            "list": [
+              
                 {
                   "name": "Linear Regression",
                   "description": "A method for modeling the relationship between a dependent variable and one or more independent variables. It predicts a continuous output."
@@ -82,9 +85,12 @@
                   "name": "Anomaly Detection",
                   "description": "A method used to identify rare or unusual patterns in data that do not conform to expected behavior, often used in fraud detection, network security, and outlier detection."
                 }
-              ],
-
-              "natural_language_processing_algorithms": [
+              ]
+            },
+            {
+              "name": "Natural Language Processing Algorithms",
+              "id": 2,
+              "list": [
                 {
                   "name": "Bag of Words",
                   "description": "A simple representation of text data where each word is treated as an individual feature. It counts how often a word appears in a document."
@@ -137,8 +143,12 @@
                   "name": "XLNet",
                   "description": "XLNet is a generalized autoregressive pretraining model that combines the benefits of BERT and autoregressive models, capturing bidirectional context while retaining autoregressive advantages."
                 }
-              ],
-                "computer_vision_algorithms": [
+              ]
+            },
+            {
+              "name": "Computer Vision Algorithms",
+              "id": 3,
+                "list": [
         {
           "name": "Edge Detection",
           "description": "A technique used to identify the boundaries within images by detecting discontinuities in pixel intensity, which helps to highlight features like edges."
@@ -191,8 +201,12 @@
           "name": "GAN Variants",
           "description": "Generative Adversarial Networks (GANs) and their variants (e.g., DCGAN, CycleGAN) are used for generating realistic images and improving the generation of high-quality data, with applications in image synthesis and style transfer."
         }
-      ],
-"reinforcement_learning_algorithms": [
+      ]
+    },
+    {
+      "name": "Reinforcement Learning Algorithms",
+      "id": 4,
+"list": [
         {
           "name": "Q-Learning",
           "description": "A model-free reinforcement learning algorithm that seeks to learn the value of an action in a particular state, improving its policy through exploration and exploitation."
@@ -245,8 +259,13 @@
           "name": "TD(λ)",
           "description": "Temporal Difference (TD) learning with eligibility traces, which blends TD learning and Monte Carlo methods to improve the learning of value functions in reinforcement learning."
         }
-      ],
-"deep_learning_algorithms": [
+      ]
+    }
+    ,
+    {
+      "name": "Deep Learning Algorithms",
+      "id": 5,
+"list": [
         {
           "name": "Convolutional Neural Networks",
           "description": "A class of deep learning algorithms primarily used for image recognition and processing, which utilize convolutional layers to automatically detect features such as edges, textures, and shapes."
@@ -303,8 +322,11 @@
           "name": "Capsule Networks",
           "description": "An advanced neural network architecture that uses capsules—groups of neurons—to preserve spatial hierarchies between objects, improving generalization and robustness."
         }
-      ],
-"optimization_algorithms": [
+      ]},
+      {
+        "name": "Optimization Algorithms",
+        "id": 6,
+"list": [
         {
           "name": "Gradient Descent",
           "description": "An optimization algorithm used to minimize a function by iteratively moving towards the steepest descent (negative gradient) of the function."
@@ -369,8 +391,11 @@
           "name": "LBFGS",
           "description": "Limited-memory BFGS (LBFGS) is a memory-efficient version of the BFGS algorithm, which approximates the inverse Hessian matrix using only a limited amount of memory, making it suitable for large-scale problems."
         }
-      ],
-"ensemble_algorithms": [
+      ]},
+      {
+        "name": "Ensamble Algorithms",
+        "id": 7,
+"list": [
         {
           "name": "Boosting",
           "description": "An ensemble technique that builds a strong model by combining the predictions of multiple weak models, where each model is trained to correct the errors made by previous models."
@@ -443,8 +468,11 @@
           "name": "Feature Space Ensemble",
           "description": "Feature Space Ensemble is an ensemble method where multiple models are trained on different feature subsets, enhancing diversity in the ensemble and reducing overfitting."
         }
-      ],
-"recommendation_systems": [
+      ]},
+      {
+        "name": "Recommendation Systems",
+        "id": 8,
+"list": [
         {
           "name": "Collaborative Filtering",
           "description": "A recommendation system technique that makes predictions based on past interactions from similar users or items, typically using user-item interactions (e.g., ratings, clicks)."
@@ -481,8 +509,11 @@
           "name": "Wide and Deep Learning",
           "description": "A hybrid model that combines the benefits of linear models (wide) and deep neural networks (deep) to learn both low-level and high-level feature interactions for recommendation tasks."
         }
-      ],
-"anomaly_detection_algorithms": [
+      ]},
+      {
+        "name": "Anomaly Detection Algorithms",
+        "id": 9,
+"list": [
         {
           "name": "Isolation Forest",
           "description": "An algorithm designed for anomaly detection in high-dimensional datasets, using decision trees to isolate anomalies by randomly selecting features and splitting them into smaller regions."
@@ -523,8 +554,11 @@
           "name": "Cramér's Test",
           "description": "A statistical test used to detect anomalies in categorical data by comparing the observed frequency distribution of the data with an expected distribution, identifying significant deviations."
         }
-      ],
-"graph_algorithms_in_ai": [
+      ]},
+      {
+        "name" : "Graph Algorithms in AI",
+        "id": 10,
+"list": [
         {
           "name": "PageRank",
           "description": "An algorithm used to rank web pages based on their importance, by evaluating the quantity and quality of links pointing to a page, commonly used in search engines."

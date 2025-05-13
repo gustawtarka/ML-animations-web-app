@@ -11,9 +11,11 @@ import search from './controllers/search.js';
 import accounts from './controllers/accounts.js';
 import index from './controllers/index.js';
 import logger from './utils/logger.js';
+import category from './controllers/category.js';
 
 router.get("/start", start.createView);
 router.get("/dashboard", dashboard.createView);
+router.get("/algo/:id", category.createView);
 router.get("/about", about.createView);
 router.get("/search", search.createView);
 router.get("/", index.createView);

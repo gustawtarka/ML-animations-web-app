@@ -8,11 +8,11 @@ import userStore from "../models/user-store.js";
 
 const start = {
     createView(request, response) {
+    const loggedInUser = accounts.getCurrentUser(request);
 
     logger.info("About page loading!");
     
     if (loggedInUser) {
-      console.log(usersStars);
       const viewData = {
         title: 'ML Learning web app',
       };

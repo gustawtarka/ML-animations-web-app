@@ -25,9 +25,12 @@ const accounts = {
     response.render('register', viewData);
   },
 registerQ(request, response) {
+  console.log("testing registerQ");
   const { email, password, firstName, lastName} = request.body;
+  console.log(email, password, firstName, lastName);
 
   if (!email || !password || !firstName || !lastName) {
+    console.log("trial for data");
     return response.redirect('/register');
   }
 
@@ -38,9 +41,6 @@ registerQ(request, response) {
     firstName,
     lastName,
   };
-
-  console.log('Request body:', req.body);
-  res.send('OK');
   
   userStore.addUser(user);
   response.cookie('user', user.email);
@@ -49,16 +49,23 @@ registerQ(request, response) {
 },
 
   
-  authenticate(request, response) {
-    const user = userStore.getUserByEmail(request.body.email);
-    if (user.password === request.body.password) {
-      response.cookie('user', user.email);
-      logger.info('logging in' + user.email);
-      response.redirect('/start');
-    } else {
-      response.redirect('/login');
-    }
-  },
+authenticate(request, response) {
+  const user = userStore.getUserByEmail(request.body.email);
+
+  if (!user) {
+    logger.warn('Login attempt with unknown email: ' + request.body.email);
+    return response.redirect('/login');
+  }
+
+  if (user.password === request.body.password) {
+    response.cookie('user', user.email);
+    logger.info('Logging in: ' + user.email);
+    response.redirect('/start');
+  } else {
+    logger.warn('Invalid password for: ' + user.email);
+    response.redirect('/login');
+  }
+},
   
 getCurrentUser(request) {
   const userEmail = request.cookies.user;

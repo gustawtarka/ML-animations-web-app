@@ -8,6 +8,7 @@ import userStore from "../models/user-store.js";
 //--------------------------------------------- Creates object about
 const about = {
   createView(request, response) {
+    const loggedInUser = accounts.getCurrentUser(request);
     logger.info("About page loading!");
     
     if (loggedInUser) {

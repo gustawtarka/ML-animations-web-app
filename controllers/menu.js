@@ -7,6 +7,7 @@ import accounts from './accounts.js';
 
 const data = {
 createView(request, response) {
+  const loggedInUser = accounts.getCurrentUser(request);
  console.log(request.params.id);
   console.log(loggedInUser);
     const viewData = {

@@ -1,0 +1,13 @@
+<section class="ui left aligned middle aligned segment">
+  <div class="ui centered special cards">
+    {{#each catCollection}} <!-- Loop through the 'data' array -->
+    <div class="card">
+        <div class="content">
+            <a href="/algo/{{id}}">
+            {{name}}
+            </a>
+        </div>
+    </div>
+    {{/each}}
+  </div>
+</section>
