@@ -1,0 +1,11 @@
+body {
+  background-color: #1b1c1d;
+  color: #ffffff;
+  font-family: "Segoe UI", sans-serif;
+}
+.section {
+  padding: 5em 0;
+}
+.scroll-section {
+  scroll-margin-top: 100px;
+}

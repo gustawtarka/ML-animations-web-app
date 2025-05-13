@@ -26,7 +26,6 @@ const accounts = {
   },
 registerQ(request, response) {
   const { email, password, firstName, lastName} = request.body;
-  const pfp = request.files;
 
   if (!email || !password || !firstName || !lastName) {
     return response.redirect('/register');
@@ -38,8 +37,10 @@ registerQ(request, response) {
     password,
     firstName,
     lastName,
-    pfp
   };
+
+  console.log('Request body:', req.body);
+  res.send('OK');
   
   userStore.addUser(user);
   response.cookie('user', user.email);
