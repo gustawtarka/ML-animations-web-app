@@ -1,0 +1,15 @@
+<section class="ui left aligned middle aligned segment">
+    <p>List length: {{listList.length}}</p>
+  <div class="ui centered special cards">
+    {{#each listList}}
+    <div class="card">
+      <div class="content">
+        {{name}}
+      </div>
+      <h5>
+        {{description}}
+      </h5>
+    </div>
+    {{/each}}
+  </div>
+</section>

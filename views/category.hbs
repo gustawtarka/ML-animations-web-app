@@ -1,13 +1,30 @@
 {{> menu}}
 
 {{#with singleCat}}
+<p>List length: {{listList.length}}</p>
+
+{{#if listList.length}}
+  {{#each listList}}
+    <div class="card">
+      <div class="content">
+        <div class="header">{{name}}</div>
+        <div class="description">{{description}}</div>
+      </div>
+    </div>
+  {{/each}}
+{{else}}
+  <p>No items found in the list.</p>
+{{/if}}
 
 <section class="ui center aligned middle aligned scrolling segment">
 
   <h2 class="ui header">
+    <p>List length: {{listList.list.length}}</p>
     {{name}}
   </h2>
+  
 
 </section>
+
 
 {{/with}}

@@ -15,7 +15,7 @@ import category from './controllers/category.js';
 
 router.get("/start", start.createView);
 router.get("/dashboard", dashboard.createView);
-router.get("/algo/:id", category.createView);
+router.get("/category/:id", category.createView);
 router.get("/about", about.createView);
 router.get("/search", search.createView);
 router.get("/", index.createView);

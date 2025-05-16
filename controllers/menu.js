@@ -17,5 +17,5 @@ createView(request, response) {
 }
 
 };
-
+  
 export default data;
