@@ -2,7 +2,7 @@
     "data": [
         {
           "name" : "Machine Learning Algorithms",
-          "id": 1,
+          "id": "1",
             "list": [
               
                 {
@@ -89,7 +89,7 @@
             },
             {
               "name": "Natural Language Processing Algorithms",
-              "id": 2,
+              "id": "2",
               "list": [
                 {
                   "name": "Bag of Words",
@@ -147,7 +147,7 @@
             },
             {
               "name": "Computer Vision Algorithms",
-              "id": 3,
+              "id": "3",
                 "list": [
         {
           "name": "Edge Detection",
@@ -205,7 +205,7 @@
     },
     {
       "name": "Reinforcement Learning Algorithms",
-      "id": 4,
+      "id": "4",
 "list": [
         {
           "name": "Q-Learning",
@@ -264,7 +264,7 @@
     ,
     {
       "name": "Deep Learning Algorithms",
-      "id": 5,
+      "id": "5",
 "list": [
         {
           "name": "Convolutional Neural Networks",
@@ -325,7 +325,7 @@
       ]},
       {
         "name": "Optimization Algorithms",
-        "id": 6,
+        "id": "6",
 "list": [
         {
           "name": "Gradient Descent",
@@ -394,7 +394,7 @@
       ]},
       {
         "name": "Ensamble Algorithms",
-        "id": 7,
+        "id": "7",
 "list": [
         {
           "name": "Boosting",
@@ -471,7 +471,7 @@
       ]},
       {
         "name": "Recommendation Systems",
-        "id": 8,
+        "id": "8",
 "list": [
         {
           "name": "Collaborative Filtering",
@@ -512,7 +512,7 @@
       ]},
       {
         "name": "Anomaly Detection Algorithms",
-        "id": 9,
+        "id": "9",
 "list": [
         {
           "name": "Isolation Forest",
@@ -557,7 +557,7 @@
       ]},
       {
         "name" : "Graph Algorithms in AI",
-        "id": 10,
+        "id": "10",
 "list": [
         {
           "name": "PageRank",

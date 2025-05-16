@@ -8,14 +8,14 @@ import accounts from './accounts.js';
 
 const category = {
 createView(request, response) {
-    const catetoryId = request.params.id;
+    const categoryId = request.params.id;
   console.log(request.params.id);
     const loggedInUser = accounts.getCurrentUser(request);
-    console.log(dataStore.getDataEntry(catetoryId));
+    console.log(dataStore.getDataEntry(categoryId));
     
     const viewData = {
       title: 'Category',
-      singleCat: dataStore.getDataEntry(catetoryId),
+      singleCat: dataStore.getDataEntry(categoryId),
       fullname: loggedInUser.firstName + ' ' + loggedInUser.lastName,
     };
 
