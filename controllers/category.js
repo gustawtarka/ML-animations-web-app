@@ -14,8 +14,9 @@ createView(request, response) {
     console.log(dataStore.getDataEntry(categoryId));
     console.log("---------------------------------------");
     console.log(dataStore.getDataEntry(categoryId).list);
-    let entry = (dataStore.getDataEntry(categoryId));
-    let listList = dataStore.getDataEntry(categoryId).list;
+    const entry = (dataStore.getDataEntry(categoryId));
+    const listList = dataStore.getDataEntry(categoryId).list;
+    console.log("grub" + listList.length);
     
     const viewData = {
       title: 'Category',

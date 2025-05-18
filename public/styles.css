@@ -1,11 +1,14 @@
-body {
-  background-color: white;
-  color: darkgreen;
-  font-family: "Segoe UI", sans-serif;
+.ui.container{
+  background-color: #A6ADC0;
+  color: #1C2641;
+  margin: 2%;
 }
-.section {
-  padding: 5em 0;
+
+.button{
+  background-color: #A4B7EB;
 }
-.scroll-section {
-  scroll-margin-top: 100px;
+.ui.center.aligned.container{
+  background-color: #404C6B;
+  margin: 4%;
 }
+

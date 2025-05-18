@@ -1,5 +1,6 @@
 {{> menu id="search"}}
 
+<div class="ui container">
 <section class="ui left aligned middle aligned segmenet">
     <form class="ui stacked segment form" action="/searchCategory" method="POST">
         <div class="field">
@@ -12,10 +13,11 @@
             </select>
         </div>
     </form>
-    {{> result}}
+    <!--{{> result}} -->
 </section>
 
 <script>
     const dropdown = document.querySelector("#myDropdown");
     dropdown.addEventListener("change", () => document.querySelector("form").submit());
 </script>
+</div>

@@ -12,6 +12,7 @@ import accounts from './controllers/accounts.js';
 import index from './controllers/index.js';
 import logger from './utils/logger.js';
 import category from './controllers/category.js';
+import simulation from './controllers/simulation.js';
 
 router.get("/start", start.createView);
 router.get("/dashboard", dashboard.createView);
@@ -24,6 +25,7 @@ router.get("/register", accounts.register);
 router.get("/logout", accounts.logout);
 router.post("/registerQ", accounts.registerQ);
 router.post("/authenticate", accounts.authenticate);
+router.get("/simulation", simulation.createView);
 
 router.get("/error", (request, response) =>
     response.status(404).end("Page not found")
