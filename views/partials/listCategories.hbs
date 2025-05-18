@@ -1,13 +1,13 @@
-<section class="ui left aligned middle aligned segment">
-  <div class="ui centered special cards">
-    {{#each catCollection}} <!-- Loop through the 'data' array -->
-    <div class="card">
-      <div class="content">
-        <a href="/category/{{id}}">
-          {{name}}
-        </a>
-      </div>
+<section class="ui center aligned container">
+  {{#each catCollection}} <!-- Loop through the 'data' array -->
+  <div class="ui centered card">
+    <div class="content">
+      <a href="/category/{{id}}">
+        {{name}}
+      </a>
     </div>
-    {{/each}}
+  </div>
+  {{/each}}
   </div>
 </section>
+{{> footer}}

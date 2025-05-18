@@ -4,623 +4,769 @@
           "name" : "Machine Learning Algorithms",
           "id": "1",
             "list": [
-              
-                {
-                  "name": "Linear Regression",
-                  "description": "A method for modeling the relationship between a dependent variable and one or more independent variables. It predicts a continuous output."
-                },
-                {
-                  "name": "Logistic Regression",
-                  "description": "A classification algorithm used to predict binary outcomes (yes/no, true/false) based on input features."
-                },
-                {
-                  "name": "Decision Trees",
-                  "description": "A tree-like structure used for decision-making that splits data into branches based on feature values to predict an output."
-                },
-                {
-                  "name": "Random Forests",
-                  "description": "An ensemble method that creates a 'forest' of decision trees, each trained on a random subset of the data, to improve prediction accuracy."
-                },
-                {
-                  "name": "Support Vector Machines",
-                  "description": "A supervised learning algorithm that finds the optimal hyperplane to separate classes in a dataset, often used for classification tasks."
-                },
-                {
-                  "name": "Naive Bayes",
-                  "description": "A probabilistic classifier based on applying Bayes’ theorem with strong (naive) independence assumptions between the features."
-                },
-                {
-                  "name": "K-Nearest Neighbors",
-                  "description": "A simple algorithm that classifies data points based on the majority class of the nearest k data points in the training set."
-                },
-                {
-                  "name": "K-Means Clustering",
-                  "description": "A clustering algorithm that partitions data into k clusters, with each cluster represented by the mean of the data points in that cluster."
-                },
-                {
-                  "name": "Principal Component Analysis",
-                  "description": "A technique for reducing the dimensionality of data by transforming it into a new set of orthogonal variables, called principal components."
-                },
-                {
-                  "name": "Gradient Boosting Machines",
-                  "description": "An ensemble technique that builds models sequentially, each new model correcting the errors of the previous one to improve prediction accuracy."
-                },
-                {
-                  "name": "AdaBoost",
-                  "description": "A boosting algorithm that combines the outputs of weak classifiers (models that perform slightly better than random) to create a strong classifier."
-                },
-                {
-                  "name": "Bagging",
-                  "description": "An ensemble technique where multiple models (usually the same type) are trained on different subsets of the data and their outputs are combined to improve accuracy."
-                },
-                {
-                  "name": "Stochastic Gradient Descent",
-                  "description": "An optimization algorithm used for training machine learning models, especially in large datasets, by updating model parameters iteratively using gradients."
-                },
-                {
-                  "name": "Mini-Batch K-Means",
-                  "description": "A variation of the K-Means algorithm that uses small random samples of data (mini-batches) to update the cluster centroids, improving performance with large datasets."
-                },
-                {
-                  "name": "Expectation Maximization",
-                  "description": "An iterative method for finding maximum likelihood estimates of parameters in probabilistic models, often used in clustering and density estimation."
-                },
-                {
-                  "name": "Hierarchical Clustering",
-                  "description": "A method of clustering that builds a hierarchy of clusters either by successively merging smaller clusters (agglomerative) or by splitting larger clusters (divisive)."
-                },
-                {
-                  "name": "DBSCAN",
-                  "description": "A density-based clustering algorithm that groups together points that are closely packed and marks points that are in low-density regions as outliers."
-                },
-                {
-                  "name": "OPTICS",
-                  "description": "An extension of DBSCAN that creates a reachability plot to identify the structure of clusters and handle varying cluster densities."
-                },
-                {
-                  "name": "Spectral Clustering",
-                  "description": "A clustering technique that uses the eigenvalues of a similarity matrix to reduce dimensionality before performing a clustering task."
-                },
-                {
-                  "name": "Anomaly Detection",
-                  "description": "A method used to identify rare or unusual patterns in data that do not conform to expected behavior, often used in fraud detection, network security, and outlier detection."
-                }
-              ]
-            },
-            {
-              "name": "Natural Language Processing Algorithms",
-              "id": "2",
-              "list": [
-                {
-                  "name": "Bag of Words",
-                  "description": "A simple representation of text data where each word is treated as an individual feature. It counts how often a word appears in a document."
-                },
-                {
-                  "name": "TF-IDF",
-                  "description": "Term Frequency-Inverse Document Frequency is a statistical measure used to evaluate how important a word is to a document in a collection or corpus."
-                },
-                {
-                  "name": "Word2Vec",
-                  "description": "A word embedding technique that learns vector representations of words, capturing semantic relationships based on context in a text corpus."
-                },
-                {
-                  "name": "GloVe",
-                  "description": "Global Vectors for Word Representation (GloVe) is a word embedding model that uses matrix factorization techniques to learn word representations by capturing global word co-occurrence statistics."
-                },
-                {
-                  "name": "BERT",
-                  "description": "Bidirectional Encoder Representations from Transformers (BERT) is a transformer-based model pre-trained on large text corpora for various NLP tasks such as question answering and language inference."
-                },
-                {
-                  "name": "GPT",
-                  "description": "Generative Pre-trained Transformer (GPT) is a language model trained to predict the next word in a sequence, useful for tasks like text generation and completion."
-                },
-                {
-                  "name": "LDA",
-                  "description": "Latent Dirichlet Allocation (LDA) is a generative probabilistic model used for topic modeling, identifying topics that occur in a collection of documents."
-                },
-                {
-                  "name": "Seq2Seq",
-                  "description": "Sequence-to-Sequence (Seq2Seq) models are used for tasks like machine translation by converting an input sequence (e.g., a sentence) into another sequence (e.g., its translation)."
-                },
-                {
-                  "name": "Conditional Random Fields",
-                  "description": "Conditional Random Fields (CRFs) are used for sequence prediction tasks, such as part-of-speech tagging or named entity recognition, where the output labels depend on the entire input sequence."
-                },
-                {
-                  "name": "ELMo",
-                  "description": "Embeddings from Language Models (ELMo) is a contextualized word representation model that generates embeddings based on the context of the word in the sentence."
-                },
-                {
-                  "name": "RoBERTa",
-                  "description": "A robustly optimized version of BERT, RoBERTa is a transformer-based model that improves BERT by training with larger batches and more data without Next Sentence Prediction (NSP)."
-                },
-                {
-                  "name": "T5",
-                  "description": "Text-to-Text Transfer Transformer (T5) is a model that converts all NLP tasks into a text generation problem, enabling it to handle a variety of tasks like translation, summarization, and question answering."
-                },
-                {
-                  "name": "XLNet",
-                  "description": "XLNet is a generalized autoregressive pretraining model that combines the benefits of BERT and autoregressive models, capturing bidirectional context while retaining autoregressive advantages."
-                }
-              ]
-            },
-            {
-              "name": "Computer Vision Algorithms",
-              "id": "3",
-                "list": [
-        {
-          "name": "Edge Detection",
-          "description": "A technique used to identify the boundaries within images by detecting discontinuities in pixel intensity, which helps to highlight features like edges."
-        },
-        {
-          "name": "Hough Transform",
-          "description": "A feature extraction technique used to detect simple shapes like lines, circles, and ellipses in images, commonly used in object detection."
-        },
-        {
-          "name": "Optical Flow",
-          "description": "A method used to detect motion in video sequences by tracking the movement of objects or pixels between frames."
-        },
-        {
-          "name": "SIFT",
-          "description": "Scale-Invariant Feature Transform (SIFT) is an algorithm for detecting and describing local features in images, particularly useful for object recognition and matching."
-        },
-        {
-          "name": "HOG",
-          "description": "Histogram of Oriented Gradients (HOG) is a feature descriptor used for object detection, particularly in detecting pedestrians by capturing edge and gradient structure."
-        },
-        {
-          "name": "RCNN",
-          "description": "Region-based Convolutional Neural Networks (RCNN) are used for object detection by generating region proposals and then applying CNNs to classify each region."
-        },
-        {
-          "name": "YOLO",
-          "description": "You Only Look Once (YOLO) is a real-time object detection system that divides the image into regions and predicts bounding boxes and class probabilities directly from the image."
-        },
-        {
-          "name": "SSD",
-          "description": "Single Shot Multibox Detector (SSD) is an object detection model that uses multiple default boxes of different aspect ratios to predict object locations in an image in a single pass."
-        },
-        {
-          "name": "Faster RCNN",
-          "description": "Faster RCNN is an improvement over RCNN, integrating region proposal networks (RPNs) into the network, making the object detection process faster and more efficient."
-        },
-        {
-          "name": "Mask RCNN",
-          "description": "Mask RCNN extends Faster RCNN by adding a branch for predicting segmentation masks, enabling both object detection and pixel-level segmentation in images."
-        },
-        {
-          "name": "RetinaNet",
-          "description": "RetinaNet is a one-stage object detection model that uses a focal loss function to address the class imbalance problem, improving performance on rare object detection."
-        },
-        {
-          "name": "FCN",
-          "description": "Fully Convolutional Networks (FCN) are designed for semantic segmentation, where each pixel is classified into a category, making them suitable for pixel-level tasks."
-        },
-        {
-          "name": "GAN Variants",
-          "description": "Generative Adversarial Networks (GANs) and their variants (e.g., DCGAN, CycleGAN) are used for generating realistic images and improving the generation of high-quality data, with applications in image synthesis and style transfer."
-        }
-      ]
+  {
+    "name": "Linear Regression",
+    "id": "1",
+    "description": "A method for modeling the relationship between a dependent variable and one or more independent variables. It predicts a continuous output."
+  },
+  {
+    "name": "Logistic Regression",
+    "id": "2",
+    "description": "A classification algorithm used to predict binary outcomes (yes/no, true/false) based on input features."
+  },
+  {
+    "name": "Decision Trees",
+    "id": "3",
+    "description": "A tree-like structure used for decision-making that splits data into branches based on feature values to predict an output."
+  },
+  {
+    "name": "Random Forests",
+    "id": "4",
+    "description": "An ensemble method that creates a 'forest' of decision trees, each trained on a random subset of the data, to improve prediction accuracy."
+  },
+  {
+    "name": "Support Vector Machines",
+    "id": "5",
+    "description": "A supervised learning algorithm that finds the optimal hyperplane to separate classes in a dataset, often used for classification tasks."
+  },
+  {
+    "name": "Naive Bayes",
+    "id": "6",
+    "description": "A probabilistic classifier based on applying Bayes’ theorem with strong (naive) independence assumptions between the features."
+  },
+  {
+    "name": "K-Nearest Neighbors",
+    "id": "7",
+    "description": "A simple algorithm that classifies data points based on the majority class of the nearest k data points in the training set."
+  },
+  {
+    "name": "K-Means Clustering",
+    "id": "8",
+    "description": "A clustering algorithm that partitions data into k clusters, with each cluster represented by the mean of the data points in that cluster."
+  },
+  {
+    "name": "Principal Component Analysis",
+    "id": "9",
+    "description": "A technique for reducing the dimensionality of data by transforming it into a new set of orthogonal variables, called principal components."
+  },
+  {
+    "name": "Gradient Boosting Machines",
+    "id": "10",
+    "description": "An ensemble technique that builds models sequentially, each new model correcting the errors of the previous one to improve prediction accuracy."
+  },
+  {
+    "name": "AdaBoost",
+    "id": "11",
+    "description": "A boosting algorithm that combines the outputs of weak classifiers (models that perform slightly better than random) to create a strong classifier."
+  },
+  {
+    "name": "Bagging",
+    "id": "12",
+    "description": "An ensemble technique where multiple models (usually the same type) are trained on different subsets of the data and their outputs are combined to improve accuracy."
+  },
+  {
+    "name": "Stochastic Gradient Descent",
+    "id": "13",
+    "description": "An optimization algorithm used for training machine learning models, especially in large datasets, by updating model parameters iteratively using gradients."
+  },
+  {
+    "name": "Mini-Batch K-Means",
+    "id": "14",
+    "description": "A variation of the K-Means algorithm that uses small random samples of data (mini-batches) to update the cluster centroids, improving performance with large datasets."
+  },
+  {
+    "name": "Expectation Maximization",
+    "id": "15",
+    "description": "An iterative method for finding maximum likelihood estimates of parameters in probabilistic models, often used in clustering and density estimation."
+  },
+  {
+    "name": "Hierarchical Clustering",
+    "id": "16",
+    "description": "A method of clustering that builds a hierarchy of clusters either by successively merging smaller clusters (agglomerative) or by splitting larger clusters (divisive)."
+  },
+  {
+    "name": "DBSCAN",
+    "id": "17",
+    "description": "A density-based clustering algorithm that groups together points that are closely packed and marks points that are in low-density regions as outliers."
+  },
+  {
+    "name": "OPTICS",
+    "id": "18",
+    "description": "An extension of DBSCAN that creates a reachability plot to identify the structure of clusters and handle varying cluster densities."
+  },
+  {
+    "name": "Spectral Clustering",
+    "id": "19",
+    "description": "A clustering technique that uses the eigenvalues of a similarity matrix to reduce dimensionality before performing a clustering task."
+  },
+  {
+    "name": "Anomaly Detection",
+    "id": "20",
+    "description": "A method used to identify rare or unusual patterns in data that do not conform to expected behavior, often used in fraud detection, network security, and outlier detection."
+  }
+]},
+{
+  "name": "Natural Language Processing Algorithms",
+  "id": "2",
+  "list": [
+    {
+      "name": "Bag of Words",
+      "id": "21",
+      "description": "A simple representation of text data where each word is treated as an individual feature. It counts how often a word appears in a document."
     },
     {
-      "name": "Reinforcement Learning Algorithms",
-      "id": "4",
-"list": [
-        {
-          "name": "Q-Learning",
-          "description": "A model-free reinforcement learning algorithm that seeks to learn the value of an action in a particular state, improving its policy through exploration and exploitation."
-        },
-        {
-          "name": "Deep Q-Network",
-          "description": "An extension of Q-learning that uses deep neural networks to approximate the Q-values, enabling it to handle high-dimensional state spaces like images."
-        },
-        {
-          "name": "Policy Gradients",
-          "description": "A family of algorithms where the policy is directly parameterized and optimized using gradients, commonly used in environments with large or continuous action spaces."
-        },
-        {
-          "name": "Actor-Critic",
-          "description": "A reinforcement learning architecture that uses two models: the actor (which selects actions) and the critic (which evaluates the actions), to improve the policy iteratively."
-        },
-        {
-          "name": "Monte Carlo Tree Search",
-          "description": "A heuristic search algorithm used in reinforcement learning for decision-making, where future states are simulated to determine the best action through tree exploration."
-        },
-        {
-          "name": "Proximal Policy Optimization",
-          "description": "A policy optimization algorithm that aims to improve stability and efficiency by limiting the magnitude of policy updates using a clipped objective function."
-        },
-        {
-          "name": "Soft Actor-Critic",
-          "description": "An off-policy actor-critic algorithm that aims to maximize both the expected reward and the entropy of the policy, encouraging exploration and stability in learning."
-        },
-        {
-          "name": "Trust Region Policy Optimization",
-          "description": "An algorithm that improves upon other policy optimization methods by ensuring that each update stays within a 'trust region,' preventing large, destabilizing policy changes."
-        },
-        {
-          "name": "SARSA",
-          "description": "State-Action-Reward-State-Action (SARSA) is an on-policy reinforcement learning algorithm similar to Q-learning, but it updates the Q-values using the action actually taken, rather than the optimal action."
-        },
-        {
-          "name": "Double DQN",
-          "description": "An extension of the DQN algorithm that addresses the overestimation bias of Q-learning by decoupling the action selection and evaluation steps."
-        },
-        {
-          "name": "Dueling DQN",
-          "description": "An enhancement to DQN where the value and advantage of each action are estimated separately, allowing for more stable learning, especially in environments with many irrelevant actions."
-        },
-        {
-          "name": "Rainbow DQN",
-          "description": "A combination of multiple improvements to DQN, including Double DQN, Dueling DQN, and prioritized experience replay, to achieve better performance and stability."
-        },
-        {
-          "name": "TD(λ)",
-          "description": "Temporal Difference (TD) learning with eligibility traces, which blends TD learning and Monte Carlo methods to improve the learning of value functions in reinforcement learning."
-        }
-      ]
-    }
-    ,
+      "name": "TF-IDF",
+      "id": "22",
+      "description": "Term Frequency-Inverse Document Frequency is a statistical measure used to evaluate how important a word is to a document in a collection or corpus."
+    },
     {
-      "name": "Deep Learning Algorithms",
-      "id": "5",
-"list": [
-        {
-          "name": "Convolutional Neural Networks",
-          "description": "A class of deep learning algorithms primarily used for image recognition and processing, which utilize convolutional layers to automatically detect features such as edges, textures, and shapes."
-        },
-        {
-          "name": "Recurrent Neural Networks",
-          "description": "A class of neural networks designed for sequential data, such as time series or natural language, where connections between nodes form cycles, allowing information to persist."
-        },
-        {
-          "name": "Long Short-Term Memory Networks",
-          "description": "A type of recurrent neural network designed to model long-term dependencies in sequential data by overcoming the vanishing gradient problem using memory cells."
-        },
-        {
-          "name": "Generative Adversarial Networks",
-          "description": "A framework for training models through a competition between two networks: a generator that creates data and a discriminator that tries to distinguish real data from generated data."
-        },
-        {
-          "name": "Autoencoders",
-          "description": "A type of unsupervised neural network used for learning efficient codings of input data, by compressing the input into a latent space representation and then reconstructing the input."
-        },
-        {
-          "name": "Deep Belief Networks",
-          "description": "A type of probabilistic generative model composed of multiple layers of hidden variables, often used for dimensionality reduction and pretraining deep networks."
-        },
-        {
-          "name": "Transformer Networks",
-          "description": "A deep learning model architecture based on self-attention mechanisms, which has become the foundation for many advanced models in natural language processing (e.g., BERT, GPT)."
-        },
-        {
-          "name": "ResNet",
-          "description": "Residual Networks (ResNet) are a type of neural network that use skip connections or shortcuts to jump over some layers, improving the training of very deep networks."
-        },
-        {
-          "name": "VGGNet",
-          "description": "A deep convolutional network architecture known for its simplicity, using small 3x3 filters stacked on top of each other, which helps with deep feature extraction."
-        },
-        {
-          "name": "InceptionNet",
-          "description": "A deep learning architecture that uses 'inception' modules to apply convolutions of different sizes and concatenate the results, helping the network learn multiple types of features simultaneously."
-        },
-        {
-          "name": "DenseNet",
-          "description": "Dense Convolutional Network (DenseNet) is an architecture where each layer is connected to every other layer in a feed-forward manner, allowing the network to reuse features and improve efficiency."
-        },
-        {
-          "name": "MobileNet",
-          "description": "A lightweight convolutional neural network designed for mobile and edge devices, using depthwise separable convolutions to reduce model size and computation."
-        },
-        {
-          "name": "EfficientNet",
-          "description": "An efficient and scalable neural network architecture that balances network depth, width, and resolution to achieve better accuracy with fewer parameters and less computation."
-        },
-        {
-          "name": "Capsule Networks",
-          "description": "An advanced neural network architecture that uses capsules—groups of neurons—to preserve spatial hierarchies between objects, improving generalization and robustness."
-        }
-      ]},
-      {
-        "name": "Optimization Algorithms",
-        "id": "6",
-"list": [
-        {
-          "name": "Gradient Descent",
-          "description": "An optimization algorithm used to minimize a function by iteratively moving towards the steepest descent (negative gradient) of the function."
-        },
-        {
-          "name": "Stochastic Gradient Descent",
-          "description": "A variation of gradient descent that updates the model's parameters using one data point at a time, improving speed and enabling online learning."
-        },
-        {
-          "name": "Adam",
-          "description": "An adaptive learning rate optimization algorithm that combines the advantages of both AdaGrad and RMSProp, adjusting learning rates based on both the first and second moments of the gradients."
-        },
-        {
-          "name": "RMSProp",
-          "description": "An adaptive learning rate optimization algorithm that adjusts the learning rate based on the moving average of squared gradients, helping to stabilize training in deep learning."
-        },
-        {
-          "name": "Genetic Algorithms",
-          "description": "A heuristic optimization technique inspired by the process of natural selection, using techniques such as mutation, crossover, and selection to evolve solutions over generations."
-        },
-        {
-          "name": "Simulated Annealing",
-          "description": "An optimization algorithm inspired by the annealing process in metallurgy, where a system is gradually cooled to reach an optimal configuration by probabilistically accepting worse solutions initially."
-        },
-        {
-          "name": "Particle Swarm Optimization",
-          "description": "An optimization algorithm inspired by the social behavior of birds flocking or fish schooling, where each particle adjusts its position based on its own experience and the experience of its neighbors."
-        },
-        {
-          "name": "Ant Colony Optimization",
-          "description": "A probabilistic technique inspired by the foraging behavior of ants, where artificial ants explore the solution space and deposit pheromones to guide others toward better solutions."
-        },
-        {
-          "name": "Bee Algorithm",
-          "description": "An optimization algorithm inspired by the foraging behavior of bees, where bees explore solutions in a manner similar to how bees search for the most rewarding nectar sources."
-        },
-        {
-          "name": "Differential Evolution",
-          "description": "A population-based optimization algorithm that generates new candidate solutions by combining the difference between randomly selected individuals, useful for continuous optimization problems."
-        },
-        {
-          "name": "Firefly Algorithm",
-          "description": "An optimization algorithm based on the flashing behavior of fireflies, where brighter fireflies attract others and guide them toward optimal solutions."
-        },
-        {
-          "name": "Cuckoo Search",
-          "description": "A nature-inspired optimization algorithm based on the obligate brood parasitic behavior of cuckoos, where eggs are laid in other birds' nests, and the best nest solutions are selected over time."
-        },
-        {
-          "name": "Bayesian Optimization",
-          "description": "A probabilistic model-based optimization method used for finding the minimum of an expensive objective function by constructing a surrogate model of the objective and using it to select the next evaluation point."
-        },
-        {
-          "name": "Conjugate Gradient Descent",
-          "description": "An optimization algorithm used to solve large-scale systems of linear equations, particularly in cases where gradient descent may not be effective, often applied in quadratic functions."
-        },
-        {
-          "name": "BFGS",
-          "description": "The Broyden-Fletcher-Goldfarb-Shanno (BFGS) algorithm is an iterative method for solving unconstrained nonlinear optimization problems by approximating the inverse Hessian matrix."
-        },
-        {
-          "name": "LBFGS",
-          "description": "Limited-memory BFGS (LBFGS) is a memory-efficient version of the BFGS algorithm, which approximates the inverse Hessian matrix using only a limited amount of memory, making it suitable for large-scale problems."
-        }
-      ]},
-      {
-        "name": "Ensamble Algorithms",
-        "id": "7",
-"list": [
-        {
-          "name": "Boosting",
-          "description": "An ensemble technique that builds a strong model by combining the predictions of multiple weak models, where each model is trained to correct the errors made by previous models."
-        },
-        {
-          "name": "Bagging",
-          "description": "Bootstrap Aggregating (Bagging) is an ensemble method that reduces variance by training multiple models on different subsets of the training data and combining their predictions."
-        },
-        {
-          "name": "AdaBoost",
-          "description": "Adaptive Boosting (AdaBoost) is a boosting technique that focuses on correcting the errors made by previous models, adjusting the weights of misclassified instances to make them more important in subsequent models."
-        },
-        {
-          "name": "XGBoost",
-          "description": "Extreme Gradient Boosting (XGBoost) is an optimized gradient boosting algorithm designed for speed and performance, widely used in machine learning competitions."
-        },
-        {
-          "name": "LightGBM",
-          "description": "LightGBM (Light Gradient Boosting Machine) is an efficient gradient boosting framework that uses a histogram-based method for faster training and lower memory usage."
-        },
-        {
-          "name": "CatBoost",
-          "description": "CatBoost is a gradient boosting library that handles categorical features directly without the need for preprocessing, providing state-of-the-art performance for many types of machine learning tasks."
-        },
-        {
-          "name": "Random Subspace",
-          "description": "A method where each base model in an ensemble is trained on a random subset of the features, enhancing diversity and helping reduce overfitting."
-        },
-        {
-          "name": "Stacking",
-          "description": "Stacking is an ensemble technique that combines the predictions of multiple models (base models) using a meta-model, which learns how to best combine the outputs of base models."
-        },
-        {
-          "name": "Voting Classifier",
-          "description": "A voting classifier is an ensemble method that combines the predictions of multiple models by taking a majority vote (for classification) or averaging (for regression) to make the final decision."
-        },
-        {
-          "name": "Blending",
-          "description": "Blending is similar to stacking, where multiple models are combined using a meta-model, but with the key difference that the base models are trained on the entire training set and the meta-model is trained on a holdout set."
-        },
-        {
-          "name": "Multiboosting",
-          "description": "Multiboosting is an ensemble method that combines both boosting and bagging, aiming to achieve high accuracy while minimizing the risk of overfitting."
-        },
-        {
-          "name": "LogitBoost",
-          "description": "LogitBoost is a boosting algorithm specifically designed for binary classification problems, where the goal is to minimize the logistic loss function."
-        },
-        {
-          "name": "RUSBoost",
-          "description": "Random Under-Sampling Boosting (RUSBoost) is a variant of AdaBoost that uses random under-sampling to address class imbalance by modifying the class distribution during training."
-        },
-        {
-          "name": "SMOTEBoost",
-          "description": "SMOTEBoost combines SMOTE (Synthetic Minority Over-sampling Technique) and boosting to improve the performance of classifiers on imbalanced datasets by generating synthetic instances of the minority class."
-        },
-        {
-          "name": "Gradient Boosting Machines",
-          "description": "Gradient Boosting Machines (GBM) is an ensemble method that builds a strong model by iteratively training weak models to minimize the residual errors from previous models, often used for both regression and classification tasks."
-        },
-        {
-          "name": "Balanced Random Forest",
-          "description": "Balanced Random Forest is an ensemble method that builds multiple decision trees using bootstrapped samples while balancing the class distribution, which helps in handling class-imbalanced datasets."
-        },
-        {
-          "name": "Easy Ensemble Classifier",
-          "description": "Easy Ensemble Classifier is an ensemble method designed for imbalanced datasets, where it combines under-sampling and boosting to build more robust classifiers."
-        },
-        {
-          "name": "Feature Space Ensemble",
-          "description": "Feature Space Ensemble is an ensemble method where multiple models are trained on different feature subsets, enhancing diversity in the ensemble and reducing overfitting."
-        }
-      ]},
-      {
-        "name": "Recommendation Systems",
-        "id": "8",
-"list": [
-        {
-          "name": "Collaborative Filtering",
-          "description": "A recommendation system technique that makes predictions based on past interactions from similar users or items, typically using user-item interactions (e.g., ratings, clicks)."
-        },
-        {
-          "name": "Content-Based Filtering",
-          "description": "A recommendation system that suggests items based on the characteristics of the items themselves, such as genre or keywords, and the user's preferences for these features."
-        },
-        {
-          "name": "Matrix Factorization Techniques",
-          "description": "A class of collaborative filtering methods that decompose large matrices (e.g., user-item interaction matrices) into lower-dimensional matrices, capturing latent features to make recommendations."
-        },
-        {
-          "name": "Association Rule Learning",
-          "description": "A rule-based machine learning method used to discover interesting relationships between variables in large datasets, often applied in recommendation systems to find associations between items."
-        },
-        {
-          "name": "Neural Collaborative Filtering",
-          "description": "An advanced recommendation technique that uses neural networks to model the interaction between users and items, capturing complex patterns and improving prediction accuracy."
-        },
-        {
-          "name": "Hybrid Recommendation Systems",
-          "description": "A recommendation system that combines multiple recommendation techniques, such as collaborative filtering and content-based filtering, to improve the accuracy and diversity of recommendations."
-        },
-        {
-          "name": "Context-Aware Recommendation Systems",
-          "description": "Recommendation systems that take into account contextual information such as time, location, and activity, tailoring recommendations to the user's specific situation."
-        },
-        {
-          "name": "DeepFM",
-          "description": "A deep learning model that combines factorization machines with deep neural networks, designed to capture both low-order and high-order feature interactions in recommendation tasks."
-        },
-        {
-          "name": "Wide and Deep Learning",
-          "description": "A hybrid model that combines the benefits of linear models (wide) and deep neural networks (deep) to learn both low-level and high-level feature interactions for recommendation tasks."
-        }
-      ]},
-      {
-        "name": "Anomaly Detection Algorithms",
-        "id": "9",
-"list": [
-        {
-          "name": "Isolation Forest",
-          "description": "An algorithm designed for anomaly detection in high-dimensional datasets, using decision trees to isolate anomalies by randomly selecting features and splitting them into smaller regions."
-        },
-        {
-          "name": "One-Class SVM",
-          "description": "A variation of Support Vector Machine (SVM) used for anomaly detection by learning a decision boundary around the majority class (normal data) and classifying points outside this boundary as anomalies."
-        },
-        {
-          "name": "Local Outlier Factor",
-          "description": "An algorithm that detects anomalies based on the density of data points, comparing the local density of each point to the local densities of its neighbors, identifying points that are far from their neighbors."
-        },
-        {
-          "name": "Elliptic Envelope",
-          "description": "An anomaly detection method that fits an elliptic envelope (ellipsoid) around the data and identifies points that lie outside this boundary as outliers."
-        },
-        {
-          "name": "DBSCAN",
-          "description": "Density-Based Spatial Clustering of Applications with Noise (DBSCAN) is a clustering algorithm that also detects anomalies by identifying points that do not belong to any cluster as outliers."
-        },
-        {
-          "name": "K-Means Based Anomaly Detection",
-          "description": "Anomaly detection based on the K-Means clustering algorithm, where points that are far from the centroids of the clusters are considered anomalies."
-        },
-        {
-          "name": "PCA Based Detection",
-          "description": "Principal Component Analysis (PCA)-based anomaly detection reduces the dimensionality of the data and identifies points that deviate significantly from the principal components as anomalies."
-        },
-        {
-          "name": "Autoencoder Based Detection",
-          "description": "Anomaly detection using autoencoders, which are neural networks trained to compress and reconstruct data. Points with high reconstruction errors are considered anomalies."
-        },
-        {
-          "name": "Gaussian Mixture Model (GMM)",
-          "description": "An anomaly detection technique that uses a probabilistic model to fit a mixture of multiple Gaussian distributions to the data, classifying points with low likelihoods as anomalies."
-        },
-        {
-          "name": "Cramér's Test",
-          "description": "A statistical test used to detect anomalies in categorical data by comparing the observed frequency distribution of the data with an expected distribution, identifying significant deviations."
-        }
-      ]},
-      {
-        "name" : "Graph Algorithms in AI",
-        "id": "10",
-"list": [
-        {
-          "name": "PageRank",
-          "description": "An algorithm used to rank web pages based on their importance, by evaluating the quantity and quality of links pointing to a page, commonly used in search engines."
-        },
-        {
-          "name": "Graph Convolutional Networks",
-          "description": "A type of neural network designed for graph-structured data, where each node aggregates features from its neighbors to make predictions."
-        },
-        {
-          "name": "Node2Vec",
-          "description": "A graph embedding technique that learns continuous representations of nodes by exploring both the local and global structure of the graph using random walks."
-        },
-        {
-          "name": "DeepWalk",
-          "description": "An algorithm that learns graph embeddings by performing random walks over the graph and using the skip-gram model to learn node representations from the sequences of nodes."
-        },
-        {
-          "name": "Graph Attention Networks",
-          "description": "A type of graph neural network that applies attention mechanisms to the nodes of the graph, allowing nodes to focus on the most relevant neighbors during the aggregation process."
-        },
-        {
-          "name": "GraphSAGE",
-          "description": "A framework for inductive graph learning that aggregates information from a node’s neighbors, allowing the model to generalize to unseen nodes in a graph."
-        },
-        {
-          "name": "Graph Isomorphism Networks",
-          "description": "A graph neural network model that leverages the idea of graph isomorphism, enabling it to better capture the structural properties of graphs."
-        },
-        {
-          "name": "Random Walk",
-          "description": "A process where a path is formed by randomly selecting neighboring nodes, used in various graph algorithms, such as for graph traversal or sampling."
-        },
-        {
-          "name": "Community Detection Algorithms",
-          "description": "A set of algorithms used to identify clusters or communities within a graph, where nodes in the same community are more densely connected to each other."
-        },
-        {
-          "name": "Graph Embedding Techniques",
-          "description": "Techniques used to map graph structures into continuous vector spaces, allowing machine learning algorithms to operate on graph data more effectively."
-        },
-        {
-          "name": "Louvain Method",
-          "description": "A community detection algorithm based on modularity optimization, which identifies communities by maximizing the density of edges within communities relative to random distributions."
-        },
-        {
-          "name": "Community Detection",
-          "description": "The process of identifying groups of nodes in a graph that are more connected to each other than to nodes in other groups, often used to analyze social networks or biological data."
-        },
-        {
-          "name": "Label Propagation",
-          "description": "A semi-supervised learning algorithm for community detection, where labels are propagated through the network, and nodes are assigned labels based on the majority of their neighbors."
-        },
-        {
-          "name": "Girvan-Newman Algorithm",
-          "description": "An algorithm for detecting community structures in a graph by progressively removing edges with the highest betweenness centrality until the graph breaks into disconnected components."
-        },
-        {
-          "name": "Heterogeneous Graph Neural Networks",
-          "description": "Graph neural networks designed for graphs with different types of nodes and edges, allowing for richer modeling of complex relationships between various entities."
-        }
-      ]
-
+      "name": "Word2Vec",
+      "id": "23",
+      "description": "A word embedding technique that learns vector representations of words, capturing semantic relationships based on context in a text corpus."
+    },
+    {
+      "name": "GloVe",
+      "id": "24",
+      "description": "Global Vectors for Word Representation (GloVe) is a word embedding model that uses matrix factorization techniques to learn word representations by capturing global word co-occurrence statistics."
+    },
+    {
+      "name": "BERT",
+      "id": "25",
+      "description": "Bidirectional Encoder Representations from Transformers (BERT) is a transformer-based model pre-trained on large text corpora for various NLP tasks such as question answering and language inference."
+    },
+    {
+      "name": "GPT",
+      "id": "26",
+      "description": "Generative Pre-trained Transformer (GPT) is a language model trained to predict the next word in a sequence, useful for tasks like text generation and completion."
+    },
+    {
+      "name": "LDA",
+      "id": "27",
+      "description": "Latent Dirichlet Allocation (LDA) is a generative probabilistic model used for topic modeling, identifying topics that occur in a collection of documents."
+    },
+    {
+      "name": "Seq2Seq",
+      "id": "28",
+      "description": "Sequence-to-Sequence (Seq2Seq) models are used for tasks like machine translation by converting an input sequence (e.g., a sentence) into another sequence (e.g., its translation)."
+    },
+    {
+      "name": "Conditional Random Fields",
+      "id": "29",
+      "description": "Conditional Random Fields (CRFs) are used for sequence prediction tasks, such as part-of-speech tagging or named entity recognition, where the output labels depend on the entire input sequence."
+    },
+    {
+      "name": "ELMo",
+      "id": "30",
+      "description": "Embeddings from Language Models (ELMo) is a contextualized word representation model that generates embeddings based on the context of the word in the sentence."
+    },
+    {
+      "name": "RoBERTa",
+      "id": "31",
+      "description": "A robustly optimized version of BERT, RoBERTa is a transformer-based model that improves BERT by training with larger batches and more data without Next Sentence Prediction (NSP)."
+    },
+    {
+      "name": "T5",
+      "id": "32",
+      "description": "Text-to-Text Transfer Transformer (T5) is a model that converts all NLP tasks into a text generation problem, enabling it to handle a variety of tasks like translation, summarization, and question answering."
+    },
+    {
+      "name": "XLNet",
+      "id": "33",
+      "description": "XLNet is a generalized autoregressive pretraining model that combines the benefits of BERT and autoregressive models, capturing bidirectional context while retaining autoregressive advantages."
     }
-    ]
+  ]
+},
+{
+  "name": "Computer Vision Algorithms",
+  "id": "3",
+  "list": [
+    {
+      "name": "Edge Detection",
+      "id": "34",
+      "description": "A technique used to identify the boundaries within images by detecting discontinuities in pixel intensity, which helps to highlight features like edges."
+    },
+    {
+      "name": "Hough Transform",
+      "id": "35",
+      "description": "A feature extraction technique used to detect simple shapes like lines, circles, and ellipses in images, commonly used in object detection."
+    },
+    {
+      "name": "Optical Flow",
+      "id": "36",
+      "description": "A method used to detect motion in video sequences by tracking the movement of objects or pixels between frames."
+    },
+    {
+      "name": "SIFT",
+      "id": "37",
+      "description": "Scale-Invariant Feature Transform (SIFT) is an algorithm for detecting and describing local features in images, particularly useful for object recognition and matching."
+    },
+    {
+      "name": "HOG",
+      "id": "38",
+      "description": "Histogram of Oriented Gradients (HOG) is a feature descriptor used for object detection, particularly in detecting pedestrians by capturing edge and gradient structure."
+    },
+    {
+      "name": "RCNN",
+      "id": "39",
+      "description": "Region-based Convolutional Neural Networks (RCNN) are used for object detection by generating region proposals and then applying CNNs to classify each region."
+    },
+    {
+      "name": "YOLO",
+      "id": "40",
+      "description": "You Only Look Once (YOLO) is a real-time object detection system that divides the image into regions and predicts bounding boxes and class probabilities directly from the image."
+    },
+    {
+      "name": "SSD",
+      "id": "41",
+      "description": "Single Shot Multibox Detector (SSD) is an object detection model that uses multiple default boxes of different aspect ratios to predict object locations in an image in a single pass."
+    },
+    {
+      "name": "Faster RCNN",
+      "id": "42",
+      "description": "Faster RCNN is an improvement over RCNN, integrating region proposal networks (RPNs) into the network, making the object detection process faster and more efficient."
+    },
+    {
+      "name": "Mask RCNN",
+      "id": "43",
+      "description": "Mask RCNN extends Faster RCNN by adding a branch for predicting segmentation masks, enabling both object detection and pixel-level segmentation in images."
+    },
+    {
+      "name": "RetinaNet",
+      "id": "44",
+      "description": "RetinaNet is a one-stage object detection model that uses a focal loss function to address the class imbalance problem, improving performance on rare object detection."
+    },
+    {
+      "name": "FCN",
+      "id": "45",
+      "description": "Fully Convolutional Networks (FCN) are designed for semantic segmentation, where each pixel is classified into a category, making them suitable for pixel-level tasks."
+    },
+    {
+      "name": "GAN Variants",
+      "id": "46",
+      "description": "Generative Adversarial Networks (GANs) and their variants (e.g., DCGAN, CycleGAN) are used for generating realistic images and improving the generation of high-quality data, with applications in image synthesis and style transfer."
+    }
+  ]
+},
+{
+  "name": "Reinforcement Learning Algorithms",
+  "id": "4",
+  "list": [
+    {
+      "name": "Q-Learning",
+      "id": "47",
+      "description": "A model-free reinforcement learning algorithm that seeks to learn the value of an action in a particular state, improving its policy through exploration and exploitation."
+    },
+    {
+      "name": "Deep Q-Network",
+      "id": "48",
+      "description": "An extension of Q-learning that uses deep neural networks to approximate the Q-values, enabling it to handle high-dimensional state spaces like images."
+    },
+    {
+      "name": "Policy Gradients",
+      "id": "49",
+      "description": "A family of algorithms where the policy is directly parameterized and optimized using gradients, commonly used in environments with large or continuous action spaces."
+    },
+    {
+      "name": "Actor-Critic",
+      "id": "50",
+      "description": "A reinforcement learning architecture that uses two models: the actor (which selects actions) and the critic (which evaluates the actions), to improve the policy iteratively."
+    },
+    {
+      "name": "Monte Carlo Tree Search",
+      "id": "51",
+      "description": "A heuristic search algorithm used in reinforcement learning for decision-making, where future states are simulated to determine the best action through tree exploration."
+    },
+    {
+      "name": "Proximal Policy Optimization",
+      "id": "52",
+      "description": "A policy optimization algorithm that aims to improve stability and efficiency by limiting the magnitude of policy updates using a clipped objective function."
+    },
+    {
+      "name": "Soft Actor-Critic",
+      "id": "53",
+      "description": "An off-policy actor-critic algorithm that aims to maximize both the expected reward and the entropy of the policy, encouraging exploration and stability in learning."
+    },
+    {
+      "name": "Trust Region Policy Optimization",
+      "id": "54",
+      "description": "An algorithm that improves upon other policy optimization methods by ensuring that each update stays within a 'trust region,' preventing large, destabilizing policy changes."
+    },
+    {
+      "name": "SARSA",
+      "id": "55",
+      "description": "State-Action-Reward-State-Action (SARSA) is an on-policy reinforcement learning algorithm similar to Q-learning, but it updates the Q-values using the action actually taken, rather than the optimal action."
+    },
+    {
+      "name": "Double DQN",
+      "id": "56",
+      "description": "An extension of the DQN algorithm that addresses the overestimation bias of Q-learning by decoupling the action selection and evaluation steps."
+    },
+    {
+      "name": "Dueling DQN",
+      "id": "57",
+      "description": "An enhancement to DQN where the value and advantage of each action are estimated separately, allowing for more stable learning, especially in environments with many irrelevant actions."
+    },
+    {
+      "name": "Rainbow DQN",
+      "id": "58",
+      "description": "A combination of multiple improvements to DQN, including Double DQN, Dueling DQN, and prioritized experience replay, to achieve better performance and stability."
+    },
+    {
+      "name": "TD(λ)",
+      "id": "59",
+      "description": "Temporal Difference (TD) learning with eligibility traces, which blends TD learning and Monte Carlo methods to improve the learning of value functions in reinforcement learning."
+    }
+  ]
+},
+    {
+  "name": "Deep Learning Algorithms",
+  "id": "5",
+  "list": [
+    {
+      "name": "Convolutional Neural Networks",
+      "id": "60",
+      "description": "A class of deep learning algorithms primarily used for image recognition and processing, which utilize convolutional layers to automatically detect features such as edges, textures, and shapes."
+    },
+    {
+      "name": "Recurrent Neural Networks",
+      "id": "61",
+      "description": "A class of neural networks designed for sequential data, such as time series or natural language, where connections between nodes form cycles, allowing information to persist."
+    },
+    {
+      "name": "Long Short-Term Memory Networks",
+      "id": "62",
+      "description": "A type of recurrent neural network designed to model long-term dependencies in sequential data by overcoming the vanishing gradient problem using memory cells."
+    },
+    {
+      "name": "Generative Adversarial Networks",
+      "id": "63",
+      "description": "A framework for training models through a competition between two networks: a generator that creates data and a discriminator that tries to distinguish real data from generated data."
+    },
+    {
+      "name": "Autoencoders",
+      "id": "64",
+      "description": "A type of unsupervised neural network used for learning efficient codings of input data, by compressing the input into a latent space representation and then reconstructing the input."
+    },
+    {
+      "name": "Deep Belief Networks",
+      "id": "65",
+      "description": "A type of probabilistic generative model composed of multiple layers of hidden variables, often used for dimensionality reduction and pretraining deep networks."
+    },
+    {
+      "name": "Transformer Networks",
+      "id": "66",
+      "description": "A deep learning model architecture based on self-attention mechanisms, which has become the foundation for many advanced models in natural language processing (e.g., BERT, GPT)."
+    },
+    {
+      "name": "ResNet",
+      "id": "67",
+      "description": "Residual Networks (ResNet) are a type of neural network that use skip connections or shortcuts to jump over some layers, improving the training of very deep networks."
+    },
+    {
+      "name": "VGGNet",
+      "id": "68",
+      "description": "A deep convolutional network architecture known for its simplicity, using small 3x3 filters stacked on top of each other, which helps with deep feature extraction."
+    },
+    {
+      "name": "InceptionNet",
+      "id": "69",
+      "description": "A deep learning architecture that uses 'inception' modules to apply convolutions of different sizes and concatenate the results, helping the network learn multiple types of features simultaneously."
+    },
+    {
+      "name": "DenseNet",
+      "id": "70",
+      "description": "Dense Convolutional Network (DenseNet) is an architecture where each layer is connected to every other layer in a feed-forward manner, allowing the network to reuse features and improve efficiency."
+    },
+    {
+      "name": "MobileNet",
+      "id": "71",
+      "description": "A lightweight convolutional neural network designed for mobile and edge devices, using depthwise separable convolutions to reduce model size and computation."
+    },
+    {
+      "name": "EfficientNet",
+      "id": "72",
+      "description": "An efficient and scalable neural network architecture that balances network depth, width, and resolution to achieve better accuracy with fewer parameters and less computation."
+    },
+    {
+      "name": "Capsule Networks",
+      "id": "73",
+      "description": "An advanced neural network architecture that uses capsules—groups of neurons—to preserve spatial hierarchies between objects, improving generalization and robustness."
+    }
+  ]
+},
+{
+  "name": "Optimization Algorithms",
+  "id": "6",
+  "list": [
+    {
+      "name": "Gradient Descent",
+      "id": "74",
+      "description": "An optimization algorithm used to minimize a function by iteratively moving towards the steepest descent (negative gradient) of the function."
+    },
+    {
+      "name": "Stochastic Gradient Descent",
+      "id": "75",
+      "description": "A variation of gradient descent that updates the model's parameters using one data point at a time, improving speed and enabling online learning."
+    },
+    {
+      "name": "Adam",
+      "id": "76",
+      "description": "An adaptive learning rate optimization algorithm that combines the advantages of both AdaGrad and RMSProp, adjusting learning rates based on both the first and second moments of the gradients."
+    },
+    {
+      "name": "RMSProp",
+      "id": "77",
+      "description": "An adaptive learning rate optimization algorithm that adjusts the learning rate based on the moving average of squared gradients, helping to stabilize training in deep learning."
+    },
+    {
+      "name": "Genetic Algorithms",
+      "id": "78",
+      "description": "A heuristic optimization technique inspired by the process of natural selection, using techniques such as mutation, crossover, and selection to evolve solutions over generations."
+    },
+    {
+      "name": "Simulated Annealing",
+      "id": "79",
+      "description": "An optimization algorithm inspired by the annealing process in metallurgy, where a system is gradually cooled to reach an optimal configuration by probabilistically accepting worse solutions initially."
+    },
+    {
+      "name": "Particle Swarm Optimization",
+      "id": "80",
+      "description": "An optimization algorithm inspired by the social behavior of birds flocking or fish schooling, where each particle adjusts its position based on its own experience and the experience of its neighbors."
+    },
+    {
+      "name": "Ant Colony Optimization",
+      "id": "81",
+      "description": "A probabilistic technique inspired by the foraging behavior of ants, where artificial ants explore the solution space and deposit pheromones to guide others toward better solutions."
+    },
+    {
+      "name": "Bee Algorithm",
+      "id": "82",
+      "description": "An optimization algorithm inspired by the foraging behavior of bees, where bees explore solutions in a manner similar to how bees search for the most rewarding nectar sources."
+    },
+    {
+      "name": "Differential Evolution",
+      "id": "83",
+      "description": "A population-based optimization algorithm that generates new candidate solutions by combining the difference between randomly selected individuals, useful for continuous optimization problems."
+    },
+    {
+      "name": "Firefly Algorithm",
+      "id": "84",
+      "description": "An optimization algorithm based on the flashing behavior of fireflies, where brighter fireflies attract others and guide them toward optimal solutions."
+    },
+    {
+      "name": "Cuckoo Search",
+      "id": "85",
+      "description": "A nature-inspired optimization algorithm based on the obligate brood parasitic behavior of cuckoos, where eggs are laid in other birds' nests, and the best nest solutions are selected over time."
+    },
+    {
+      "name": "Bayesian Optimization",
+      "id": "86",
+      "description": "A probabilistic model-based optimization method used for finding the minimum of an expensive objective function by constructing a surrogate model of the objective and using it to select the next evaluation point."
+    },
+    {
+      "name": "Conjugate Gradient Descent",
+      "id": "87",
+      "description": "An optimization algorithm used to solve large-scale systems of linear equations, particularly in cases where gradient descent may not be effective, often applied in quadratic functions."
+    },
+    {
+      "name": "BFGS",
+      "id": "88",
+      "description": "The Broyden-Fletcher-Goldfarb-Shanno (BFGS) algorithm is an iterative method for solving unconstrained nonlinear optimization problems by approximating the inverse Hessian matrix."
+    },
+    {
+      "name": "LBFGS",
+      "id": "89",
+      "description": "Limited-memory BFGS (LBFGS) is a memory-efficient version of the BFGS algorithm, which approximates the inverse Hessian matrix using only a limited amount of memory, making it suitable for large-scale problems."
+    }
+  ]
+},
+{
+  "name": "Ensemble Algorithms",
+  "id": "7",
+  "list": [
+    {
+      "name": "Boosting",
+      "id": "90",
+      "description": "An ensemble technique that builds a strong model by combining the predictions of multiple weak models, where each model is trained to correct the errors made by previous models."
+    },
+    {
+      "name": "Bagging",
+      "id": "91",
+      "description": "Bootstrap Aggregating (Bagging) is an ensemble method that reduces variance by training multiple models on different subsets of the training data and combining their predictions."
+    },
+    {
+      "name": "AdaBoost",
+      "id": "92",
+      "description": "Adaptive Boosting (AdaBoost) is a boosting technique that focuses on correcting the errors made by previous models, adjusting the weights of misclassified instances to make them more important in subsequent models."
+    },
+    {
+      "name": "XGBoost",
+      "id": "93",
+      "description": "Extreme Gradient Boosting (XGBoost) is an optimized gradient boosting algorithm designed for speed and performance, widely used in machine learning competitions."
+    },
+    {
+      "name": "LightGBM",
+      "id": "94",
+      "description": "LightGBM (Light Gradient Boosting Machine) is an efficient gradient boosting framework that uses a histogram-based method for faster training and lower memory usage."
+    },
+    {
+      "name": "CatBoost",
+      "id": "95",
+      "description": "CatBoost is a gradient boosting library that handles categorical features directly without the need for preprocessing, providing state-of-the-art performance for many types of machine learning tasks."
+    },
+    {
+      "name": "Random Subspace",
+      "id": "96",
+      "description": "A method where each base model in an ensemble is trained on a random subset of the features, enhancing diversity and helping reduce overfitting."
+    },
+    {
+      "name": "Stacking",
+      "id": "97",
+      "description": "Stacking is an ensemble technique that combines the predictions of multiple models (base models) using a meta-model, which learns how to best combine the outputs of base models."
+    },
+    {
+      "name": "Voting Classifier",
+      "id": "98",
+      "description": "A voting classifier is an ensemble method that combines the predictions of multiple models by taking a majority vote (for classification) or averaging (for regression) to make the final decision."
+    },
+    {
+      "name": "Blending",
+      "id": "99",
+      "description": "Blending is similar to stacking, where multiple models are combined using a meta-model, but with the key difference that the base models are trained on the entire training set and the meta-model is trained on a holdout set."
+    },
+    {
+      "name": "Multiboosting",
+      "id": "100",
+      "description": "Multiboosting is an ensemble method that combines both boosting and bagging, aiming to achieve high accuracy while minimizing the risk of overfitting."
+    },
+    {
+      "name": "LogitBoost",
+      "id": "101",
+      "description": "LogitBoost is a boosting algorithm specifically designed for binary classification problems, where the goal is to minimize the logistic loss function."
+    },
+    {
+      "name": "RUSBoost",
+      "id": "102",
+      "description": "Random Under-Sampling Boosting (RUSBoost) is a variant of AdaBoost that uses random under-sampling to address class imbalance by modifying the class distribution during training."
+    },
+    {
+      "name": "SMOTEBoost",
+      "id": "103",
+      "description": "SMOTEBoost combines SMOTE (Synthetic Minority Over-sampling Technique) and boosting to improve the performance of classifiers on imbalanced datasets by generating synthetic instances of the minority class."
+    },
+    {
+      "name": "Gradient Boosting Machines",
+      "id": "104",
+      "description": "Gradient Boosting Machines (GBM) is an ensemble method that builds a strong model by iteratively training weak models to minimize the residual errors from previous models, often used for both regression and classification tasks."
+    },
+    {
+      "name": "Balanced Random Forest",
+      "id": "105",
+      "description": "Balanced Random Forest is an ensemble method that builds multiple decision trees using bootstrapped samples while balancing the class distribution, which helps in handling class-imbalanced datasets."
+    },
+    {
+      "name": "Easy Ensemble Classifier",
+      "id": "106",
+      "description": "Easy Ensemble Classifier is an ensemble method designed for imbalanced datasets, where it combines under-sampling and boosting to build more robust classifiers."
+    },
+    {
+      "name": "Feature Space Ensemble",
+      "id": "107",
+      "description": "Feature Space Ensemble is an ensemble method where multiple models are trained on different feature subsets, enhancing diversity in the ensemble and reducing overfitting."
+    }
+  ]
 }
+,
+      
+  {
+    "name": "Recommendation Systems",
+    "id": "8",
+    "list": [
+      {
+        "name": "Collaborative Filtering",
+        "id": "108",
+        "description": "A recommendation system technique that makes predictions based on past interactions from similar users or items, typically using user-item interactions (e.g., ratings, clicks)."
+      },
+      {
+        "name": "Content-Based Filtering",
+        "id": "109",
+        "description": "A recommendation system that suggests items based on the characteristics of the items themselves, such as genre or keywords, and the user's preferences for these features."
+      },
+      {
+        "name": "Matrix Factorization Techniques",
+        "id": "110",
+        "description": "A class of collaborative filtering methods that decompose large matrices (e.g., user-item interaction matrices) into lower-dimensional matrices, capturing latent features to make recommendations."
+      },
+      {
+        "name": "Association Rule Learning",
+        "id": "111",
+        "description": "A rule-based machine learning method used to discover interesting relationships between variables in large datasets, often applied in recommendation systems to find associations between items."
+      },
+      {
+        "name": "Neural Collaborative Filtering",
+        "id": "112",
+        "description": "An advanced recommendation technique that uses neural networks to model the interaction between users and items, capturing complex patterns and improving prediction accuracy."
+      },
+      {
+        "name": "Hybrid Recommendation Systems",
+        "id": "113",
+        "description": "A recommendation system that combines multiple recommendation techniques, such as collaborative filtering and content-based filtering, to improve the accuracy and diversity of recommendations."
+      },
+      {
+        "name": "Context-Aware Recommendation Systems",
+        "id": "114",
+        "description": "Recommendation systems that take into account contextual information such as time, location, and activity, tailoring recommendations to the user's specific situation."
+      },
+      {
+        "name": "DeepFM",
+        "id": "115",
+        "description": "A deep learning model that combines factorization machines with deep neural networks, designed to capture both low-order and high-order feature interactions in recommendation tasks."
+      },
+      {
+        "name": "Wide and Deep Learning",
+        "id": "116",
+        "description": "A hybrid model that combines the benefits of linear models (wide) and deep neural networks (deep) to learn both low-level and high-level feature interactions for recommendation tasks."
+      }
+    ]
+  },
+  {
+    "name": "Anomaly Detection Algorithms",
+    "id": "9",
+    "list": [
+      {
+        "name": "Isolation Forest",
+        "id": "117",
+        "description": "An algorithm designed for anomaly detection in high-dimensional datasets, using decision trees to isolate anomalies by randomly selecting features and splitting them into smaller regions."
+      },
+      {
+        "name": "One-Class SVM",
+        "id": "118",
+        "description": "A variation of Support Vector Machine (SVM) used for anomaly detection by learning a decision boundary around the majority class (normal data) and classifying points outside this boundary as anomalies."
+      },
+      {
+        "name": "Local Outlier Factor",
+        "id": "119",
+        "description": "An algorithm that detects anomalies based on the density of data points, comparing the local density of each point to the local densities of its neighbors, identifying points that are far from their neighbors."
+      },
+      {
+        "name": "Elliptic Envelope",
+        "id": "120",
+        "description": "An anomaly detection method that fits an elliptic envelope (ellipsoid) around the data and identifies points that lie outside this boundary as outliers."
+      },
+      {
+        "name": "DBSCAN",
+        "id": "121",
+        "description": "Density-Based Spatial Clustering of Applications with Noise (DBSCAN) is a clustering algorithm that also detects anomalies by identifying points that do not belong to any cluster as outliers."
+      },
+      {
+        "name": "K-Means Based Anomaly Detection",
+        "id": "122",
+        "description": "Anomaly detection based on the K-Means clustering algorithm, where points that are far from the centroids of the clusters are considered anomalies."
+      },
+      {
+        "name": "PCA Based Detection",
+        "id": "123",
+        "description": "Principal Component Analysis (PCA)-based anomaly detection reduces the dimensionality of the data and identifies points that deviate significantly from the principal components as anomalies."
+      },
+      {
+        "name": "Autoencoder Based Detection",
+        "id": "124",
+        "description": "Anomaly detection using autoencoders, which are neural networks trained to compress and reconstruct data. Points with high reconstruction errors are considered anomalies."
+      },
+      {
+        "name": "Gaussian Mixture Model (GMM)",
+        "id": "125",
+        "description": "An anomaly detection technique that uses a probabilistic model to fit a mixture of multiple Gaussian distributions to the data, classifying points with low likelihoods as anomalies."
+      },
+      {
+        "name": "Cramér's Test",
+        "id": "126",
+        "description": "A statistical test used to detect anomalies in categorical data by comparing the observed frequency distribution of the data with an expected distribution, identifying significant deviations."
+      }
+    ]
+  },
+  {
+    "name": "Graph Algorithms in AI",
+    "id": "10",
+    "list": [
+      {
+        "name": "PageRank",
+        "id": "127",
+        "description": "An algorithm used to rank web pages based on their importance, by evaluating the quantity and quality of links pointing to a page, commonly used in search engines."
+      },
+      {
+        "name": "Graph Convolutional Networks",
+        "id": "128",
+        "description": "A type of neural network designed for graph-structured data, where each node aggregates features from its neighbors to make predictions."
+      },
+      {
+        "name": "Node2Vec",
+        "id": "129",
+        "description": "A graph embedding technique that learns continuous representations of nodes by exploring both the local and global structure of the graph using random walks."
+      },
+      {
+        "name": "DeepWalk",
+        "id": "130",
+        "description": "An algorithm that learns graph embeddings by performing random walks over the graph and using the skip-gram model to learn node representations from the sequences of nodes."
+      },
+      {
+        "name": "Graph Attention Networks",
+        "id": "131",
+        "description": "A type of graph neural network that applies attention mechanisms to the nodes of the graph, allowing nodes to focus on the most relevant neighbors during the aggregation process."
+      },
+      {
+        "name": "GraphSAGE",
+        "id": "132",
+        "description": "A framework for inductive graph learning that aggregates information from a node’s neighbors, allowing the model to generalize to unseen nodes in a graph."
+      },
+      {
+        "name": "Graph Isomorphism Networks",
+        "id": "133",
+        "description": "A graph neural network model that leverages the idea of graph isomorphism, enabling it to better capture the structural properties of graphs."
+      },
+      {
+        "name": "Random Walk",
+        "id": "134",
+        "description": "A process where a path is formed by randomly selecting neighboring nodes, used in various graph algorithms, such as for graph traversal or sampling."
+      },
+      {
+        "name": "Community Detection Algorithms",
+        "id": "135",
+        "description": "A set of algorithms used to identify clusters or communities within a graph, where nodes in the same community are more densely connected to each other."
+      },
+      {
+        "name": "Graph Embedding Techniques",
+        "id": "136",
+        "description": "Techniques used to map graph structures into continuous vector spaces, allowing machine learning algorithms to operate on graph data more effectively."
+      },
+      {
+        "name": "Louvain Method",
+        "id": "137",
+        "description": "A community detection algorithm based on modularity optimization, which identifies communities by maximizing the density of edges within communities relative to random distributions."
+      },
+      {
+        "name": "Community Detection",
+        "id": "138",
+        "description": "The process of identifying groups of nodes in a graph that are more connected to each other than to nodes in other groups, often used to analyze social networks or biological data."
+      },
+      {
+        "name": "Label Propagation",
+        "id": "139",
+        "description": "A semi-supervised learning algorithm for community detection, where labels are propagated through the network, and nodes are assigned labels based on the majority of their neighbors."
+      },
+      {
+        "name": "Girvan-Newman Algorithm",
+        "id": "140",
+        "description": "An algorithm for detecting community structures in a graph by progressively removing edges with the highest betweenness centrality until the graph breaks into disconnected components."
+      },
+      {
+        "name": "Heterogeneous Graph Neural Networks",
+        "id": "141",
+        "description": "Graph neural networks designed for graphs with different types of nodes and edges, allowing for richer modeling of complex relationships between various entities."
+      }
+    ]
+  }
+]
+}
+
+      
