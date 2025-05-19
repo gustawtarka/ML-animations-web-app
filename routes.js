@@ -13,6 +13,7 @@ import index from './controllers/index.js';
 import logger from './utils/logger.js';
 import category from './controllers/category.js';
 import simulation from './controllers/simulation.js';
+import algorithm from './controllers/algorithm.js';
 
 router.get("/start", start.createView);
 router.get("/dashboard", dashboard.createView);
@@ -23,6 +24,7 @@ router.get("/", index.createView);
 router.get("/login", accounts.login);
 router.get("/register", accounts.register);
 router.get("/logout", accounts.logout);
+router.get("/algorithm/:id", algorithm.createView);
 router.post("/registerQ", accounts.registerQ);
 router.post("/authenticate", accounts.authenticate);
 router.get("/simulation", simulation.createView);

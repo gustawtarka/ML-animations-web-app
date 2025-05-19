@@ -6,7 +6,7 @@ import { v4 as uuidv4 } from 'uuid';
 import accounts from './accounts.js';
 
 
-const category = {
+const algorithm = {
 createView(request, response) {
     const categoryId = request.params.id;
     console.log(request.params.id);
@@ -25,9 +25,9 @@ createView(request, response) {
       fullname: loggedInUser.firstName + ' ' + loggedInUser.lastName,
     };
 
-    response.render('category', viewData);
+    response.render('algorithm', viewData);
 },
 
 };
 
-export default category;
+export default algorithm;
