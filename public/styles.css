@@ -1,7 +1,8 @@
 .ui.container{
-  background-color: #A6ADC0;
+  background-color: #489956;
   color: #1C2641;
   margin: 2%;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .button{
