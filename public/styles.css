@@ -1,16 +1,21 @@
-.ui.container{
-  background-color: #489956;
-  color: #1C2641;
-  margin: 2%;
-  font-family: 'Courier New', Courier, monospace;
+.ui.container >h1, h3{
+  background: linear-gradient(rgb(86, 7, 131),black);
+  border-style:inset;
+  border-color: rgb(0, 255, 34);
+  border-radius: 1%;
+  border-width: 2px;
+  padding: 25px;
+  padding-top: 15px;
+  border-top: 0px;
+  color: aliceblue;
+
+ 
 }
 
-.button{
-  background-color: #A4B7EB;
-}
 .ui.center.aligned.container{
   background-color: #404C6B;
-  margin: 4%;
+  margin: 10%;
+
 }
 
 
