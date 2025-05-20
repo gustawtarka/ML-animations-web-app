@@ -6,6 +6,7 @@
             "list": [
   {
     "name": "Linear Regression",
+    "animName": "linearRegression",
     "id": "1",
     "description": "A method for modeling the relationship between a dependent variable and one or more independent variables. It predicts a continuous output."
   },

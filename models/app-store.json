@@ -1,24 +1,24 @@
 {
     "info": {
-      "appTitle": "Neutron star database",
-      "version": 0.1,
+      "appTitle": "Lorem Ipsum",
+      "version": 1.1,
       "creators": [
         {
           "name": "Gustaw Tarka",
           "role": "Web Developer"
         },
         {
-          "name": "N/A",
-          "role": "N/A"
+          "name": "Simon Liiver",
+          "role": "UX/UI designer"
         }
       ],
       "contact_details": [
         {
-          "mail": "20113304@mail.wit.ie",
+          "mail": "tarkagustaw@gmail.com",
           "phone": "083 554 6539",
           "address": "Cork Rd, Kilbarry, Waterford"
         }
       ],
-      "location": "Waterford"
+      "location": "Europe"
     } 
   }
