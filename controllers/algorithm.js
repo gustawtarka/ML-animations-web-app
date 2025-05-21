@@ -11,18 +11,9 @@ createView(request, response) {
     const categoryId = request.params.id;
     console.log(request.params.id);
     const loggedInUser = accounts.getCurrentUser(request);
-    console.log(dataStore.getDataEntry(categoryId));
-    console.log("---------------------------------------");
-    console.log(dataStore.getDataEntry(categoryId).list);
-    const entry = (dataStore.getDataEntry(categoryId));
-    const listList = dataStore.getDataEntry(categoryId).list;
-    console.log("grub" + listList.length);
     
     const viewData = {
-      title: 'Category',
-      singleCat: entry,
-      listList: listList,  
-      fullname: loggedInUser.firstName + ' ' + loggedInUser.lastName,
+      title: 'Algorithm',
     };
 
     response.render('algorithm', viewData);
