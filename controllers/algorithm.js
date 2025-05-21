@@ -8,9 +8,6 @@ import accounts from './accounts.js';
 
 const algorithm = {
 createView(request, response) {
-    const categoryId = request.params.id;
-    console.log(request.params.id);
-    const loggedInUser = accounts.getCurrentUser(request);
     
     const viewData = {
       title: 'Algorithm',
